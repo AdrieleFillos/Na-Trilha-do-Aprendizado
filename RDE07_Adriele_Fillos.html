@@ -28,8 +28,54 @@
 
         <figure>
             <img src="Img/Imagem Branch.jpg" alt="Imagem Branch" height="48%" width="48%">
-            <img src="Img/Imagem Exemplo Branch.jpg" alt="Imagem de exemplo de Branch" height="46%" width="46%">
+            <img src="Img/Imagem Exemplo Branch.jpg" alt="Imagem de exemplo de Branch" height="48%" width="48%">
            </figure>
+
+           <p><font size="4,6"> <font color="purple">AS BRANCH SECUNDÁRIAS NÃO FAZEM ALTERAÇÕES NA BRANCH MASTER.</font><br>
+           Exemplo: Se na <b>branch-1</b> for feita alguma alteração e em seguida dado um <b>commit</b> , a <b>branch-master</b> não vai sofrer nenhuma alteração , ou seja , diversas equipes podem trabalhar paralelamente na <b>branch-master</b>.</font></p>
+
+           <ul><font size="4,6">
+               <li>A branch secundária e a main parecem duas pastas diferentes com cópias do mesmo arquivo.</li>
+               <li>Se ocorrerem alterações no banco de dados , no desingn , ou no conteúdo , quando concluídas as modificações , é possível fazer um <b>merge</b>.</li>
+               <li><b>Merge:</b> É a mesclagem das <b><i>Branchs Secundárias</i></b> com a <b><i>Branch Master</i></b> .</li>
+            </font></ul>
+
+            <figure>
+                <center>
+                <img src="Img/Imagem Branch Main no Github.JPG" alt="Imagem Branch Main do Github" height="68%" width="68%">
+                <figcaption>Imagem do Branch Main na plataforma GitHub</figcaption>
+                </center>
+            </figure>
+
+            <p><font size="4,6"><font color="purple">PASSO A PASSO PARA CRIAR UM NOVO REPOSITÓRIO LOCAL NO APLICATIVO GITHUB:</font><br> 
+            <b>Clica em: <font color="purple">File</font> - <font color="purple">New repository</font> - escolhe um nome <font color="purple">Name</font> e preenche a lacuna - coloca uma descrição em <font color="purple">Description</font> - marca o quadrinho com a opção <font color="purple">Initialize this repository with a README</font> - na parte escrita <font color="purple">License</font> procura e marca a opção <font color="purple">MIT License</font> - por fim clica em <font color="purple">Create repository</font>.</font></b></p>
+
+                <ul>
+                <font size="4,6"><li><b>Para que o repositório vá para o site do "GitHub.com" , cilca <font color="purple">Ctrl+p</font> ou em <font color="purple">Publish repository</font> , desmarca a opção <font color="purple">Keep this code private</font> para o repositório se tornar público e clica em <font color="purple">Publish repository</font> novamente.</b></li>
+                <li><b>Entra no site do "github.com" e atualiza a página.</b></li>
+                <li><b>Volta no aplicativo "GitHub" e clica em <font color="purple">Open Visual Studio Code</font> , para abrir o repositório no app VisualStudio.</b></li>
+                <li><b>Após abrir o VisualStudio , cria um arquivo HTML , desenvolve o código e salva as alterações.</b></li>
+                <li><b>Após salvar , entra no app GitHubDesktop , vê se o código se atualizou , escreve um nome para a alteração realizada e clica em <font color="purple">Commit to main</font> para o app guardar a modificação do código.</b></li>
+                <li><b>Clica em <font color="purple">Push origin</font> para mandar as alterações ao site "github.com".</b></li>
+                </font></ul>
+
+                <p><font size="4,6"><font color="purple">PASSO A PASSO PARA CRIAR A BRANCH SECUNDÁRIA SEM AFETAR A MAIN:</font></p>
+                   <ul>
+                       <li><b>Clica em <font color="purple">main</font> - <font color="purple">New branch</font> - coloca um nome <font color="purple">Name</font> para o branch - clica em <font color="purple">Create branch</font> - por fim clica em <font color="purple">Publish branch</font>.</b></li>
+                       <li><b>Após isso clica em <font color="purple">Open Visual Studio Code</font> , faz a inserção de conteúdo no código e salva tudo.</b></li>
+                       <li><b>Após salvar , entra no app GitHubDesktop , vê se o código se atualizou , escreve um nome para a alteração realizada e clica em <font color="purple">Commit to (nome criado para o branch secundário)</font> para o app guardar a modificação do código.</b></li>
+                       <li><b>Clica em <font color="purple">Push origin</font> para fazer a sincronização com o repositório remoto.</b></li>
+                   </ul></font>
+
+                   <p><font size="4,6"> <font color="purple">PASSO A PASSO PARA FAZER O MERGE:</font></p>
+                    <ul><font size="4,6">
+                        <li><b>Clica no branch <font color="purple">main</font>.</b></li>
+                        <li><b>Depois clica em <font color="purple">Branch</font> e logo após em <font color="purple">Merge into current branch...</font> , para fazer a junção com o braço corrente.</b></li>
+                        <li><b>Verifica se aparece "Merge into main" , clica na opção <font color="purple">branch-secundária</font> e clica em <font color="purple">Merge branch-secundaria into main</font>.</b></li>
+                        <li><b>Clica em <font color="purple">Push origin</font>.</b></li>
+                    </font></ul>
+
+
 
            <h2><font color="purple">Hospedagem</font></h2>
 
@@ -39,6 +85,26 @@
                <li>O GitHub Pages oferece hospedagem gratuita de sites. Basta criar uma conta e um repositório público.</li>
                <li>A URL será <b>"https://nomeusuario.github.io/repositorio"</b></li>
             </font></ul>
+
+            <figure>
+                <figcaption>Hospedagem: Passo 1</figcaption>
+                <img src="Img/Imagem hospedagem passo 1.jpg" alt="Imagem hospedagem passo 1" align="left" height="35%" width="35%">
+                <center>
+                <figcaption>Hospedagem: Passo 2</figcaption>
+                <img src="Img/Imagem hospedagem passo 2.jpg" alt="Imagem hospedagem passo 2" height="38%" width="38%">
+                </center>
+                <figcaption>Hospedagem: Passo 3</figcaption>
+                <img src="Img/Imagem hospedagem passo 3.jpg" alt="Imagem hospedagem passo 3" align="left" height="34%" width="34%">
+                <center>
+                <figcaption>Hospedagem: Passo 4</figcaption>
+                <img src="Img/Imagem hospedagem passo 4.jpg" alt="Imagem hospedagem passo 4" height="42%" width="42%">
+               </center>
+
+               <center>
+                <img src="Img/Imagem hospedagem passo 5.jpg" alt="Imagem hospedagem passo 5" height="67%" width="67%">
+                <figcaption>Hospedagem: Passo 5</figcaption>
+            </center>
+          </figure>
 
 </body>
 </html>

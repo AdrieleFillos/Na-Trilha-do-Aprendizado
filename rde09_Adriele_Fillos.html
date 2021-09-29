@@ -43,9 +43,20 @@
     <dd><font color="blue">&lt;audio</font> preload=<font color="darkorange">""<font color="blue">&gt;</font><font color="blue">&lt;/audio&gt;</font></dd></font></p></font></p>
 <audio preload="metadata" controls>
  <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
-
+ <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+ <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
 </audio>
 
+<h2>Tag Picture</h2>
+<p><font size="4,6">O elemento HTML <b>picture</b> é um container usado para especificar múltiplos elementos <b>&lt;source&gt;</b> para um elemento específico <b>&lt;img&gt;</b> contido nele.
+    <dt><b>Sintaxe:</b></dt>
+    <dd><font color="blue">&lt;picture</font> <font color="blue">&gt;</font><font color="blue">&lt;/picture&gt;</font></dd></font></p>
+    <picture>
+        <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
+        <source media="max-width:700px" srcset="midias/img/bike_320.jpg">
+        <source media="max-width:1000px" srcset="midias/img/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="Mtb Por-do-Sol">
+    </picture>
 
 </body>
 </html>

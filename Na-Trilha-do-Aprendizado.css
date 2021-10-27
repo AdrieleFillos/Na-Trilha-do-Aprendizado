@@ -1,0 +1,6 @@
+h2#RDE10 > span{
+   display: none;
+}
+h2#RDE10:hover > span{
+    display: block;
+}

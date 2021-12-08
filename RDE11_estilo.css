@@ -57,13 +57,7 @@ div.agrupamento{
     margin: 30px;
     padding: 20px;
 }
-.pseudo > span{
-    display: none;
-}
-.pseudo:hover > span{
-    display: block;
-    background-color: dark;
-}
+
 h3::selection{
     color: red;
     background: yellow;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -80,3 +81,11 @@ a.ex2:visited{
         padding: 0px;
     }
 }
+=======
+h2#RDE10 > span{
+   display: none;
+}
+h2#RDE10:hover > span{
+    display: block;
+}
+>>>>>>> main

@@ -9,11 +9,12 @@ header{
     background-color: #D9325E;
     border-radius: 5px;
     margin-top: 10px;
+    
 }
 .logo img{
     width: 50%;
     padding-top: 12px;
-    margin-left: 340px;
+    margin-left: 460px;
 }
 .navegacao{
     overflow: hidden;
@@ -33,9 +34,9 @@ header{
     font-weight: bold;
     color: white;
     text-align: center;
-    width:40%;
+    width:30%;
     height: 40px;
-    margin: 20px 420px 10px 420px;
+    margin: 37px 620px 10px 620px;
 
  }
  .pseudo:hover{
@@ -44,8 +45,21 @@ header{
     margin-block: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
+ } 
+.pseudo2:hover{
+        background-color: linear-gradient(to right,#b1befd,rgb(255, 196, 123));
+        border-radius: 5px;
+        margin-block: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
  }
+ .pseudo3:hover{
+    background-color: linear-gradient(to right,#b1befd,rgb(255, 196, 123));
+    border-radius: 5px;
+    margin-block: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 button{
     text-decoration: none;
     color: white;
@@ -72,11 +86,39 @@ a.ex2:visited{
 .pseudo:hover .botoes{
     display: block;
 }
+.botoes2{
+    display: none;
+}
+.pseudo2:hover .botoes2{
+    display: block;
+}
+.botoes3{
+    display: none;
+}
+.pseudo3:hover .botoes2{
+    display: block;
+}
 
 
  @media screen and (max-width:800px){
     .pseudo, .primeiro{
         width: 100%;
         padding: 0px;
+        margin: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .logo{
+        width: 100%;
+        padding-top: 6px;
+        
+        margin-left: 0px;
+        align-items: center;
+    }
+    .logo img{
+        width: 100%;
+        padding-top: 12px;
+        margin-left: 10px;
     }
 }

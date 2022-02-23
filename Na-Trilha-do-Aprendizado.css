@@ -74,6 +74,7 @@ header{
     background-color: #D9325E;
     border-radius: 5px;
     margin-top: 10px;
+    border: 1px double #213A40;
     
 }
 .logo img{
@@ -106,6 +107,7 @@ header{
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #1b283898;
+    border: 1px double #D9325E;
 
  }
  h1{

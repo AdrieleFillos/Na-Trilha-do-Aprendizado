@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script rel="text/Javascript" src="Exercício1.js"></script>
+    <title>Exercício 1</title>
+</head>
+<body style=" background-image: linear-gradient(to right,#b1befd,rgb(255, 196, 123));">
+
+  
+  <form 	style="border: 1px double #213A40; background-color: #D9325E;
+    padding: 4px;text-align:center; font-size: large; font-family: Arial, Helvetica, sans-serif; border-radius: 5px;max-width: 800px;margin: 0 auto;margin-top:100px;"
+    name="convert">
+    <h1 style="color: #213A40; font-family: Arial, Helvetica, sans-serif;">Conversor de Temperaturas</h1>
+  
+  Temperatura em Fahrenheit: <input 	type="text" 
+      name="ftemp" 
+      size="7"
+  
+  onchange="convertTemp('fpc')"> <br><br>Temperatura em Celsius:
+  
+  <input 	type="text" 
+    name="ctemp" 
+    size="7"
+  
+  onchange="convertTemp('cpf')">
+  
+  <br><br>Temperatura em Kelvin:
+  
+  <input 	type="text" 
+    name="ktemp" 
+    size="7"
+  
+  onchange="convertTemp('kpf')">
+  
+  <br /><br />
+  <input 	type="button" style="text-decoration: none;color: white;background: #213A40;border-radius: 10px; font-size: 20px; border:rgba;margin: 10px;" 
+    value="limpar" 
+    onclick="clearAll();">
+  </form>
+  </body>
+  </html>

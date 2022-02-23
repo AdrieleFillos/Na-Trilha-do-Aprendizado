@@ -3,6 +3,67 @@ body{
     font-weight: bold;
     background-image: linear-gradient(to right,#b1befd,rgb(255, 196, 123));   
 }
+form#f1{
+    border: 1px double #213A40; 
+    background-color: #D9325E;
+    padding: 2px;
+    text-align:center;
+     font-size: large; 
+     font-family: Arial, Helvetica, sans-serif;
+      border-radius: 5px;
+      max-width: 700px;
+      float: left;
+      box-shadow: 10px 10px 10px #1b283898;
+      width: max-content;
+      
+      
+}
+form#f2{
+    border: 1px double #213A40; 
+    background-color: #D9325E;
+    padding: 2px;
+    text-align:center;
+     font-size: large; 
+     font-family: Arial, Helvetica, sans-serif;
+      border-radius: 5px;
+      max-width: 700px;
+      box-shadow: 10px 10px 10px #1b283898;
+      float:right;
+      width: max-content;
+}
+form#f3{
+    border: 1px double #213A40; 
+    background-color: #D9325E;
+    padding: 2px;
+    text-align:center;
+     font-size: large; 
+     font-family: Arial, Helvetica, sans-serif;
+      border-radius: 5px;
+      max-width: 600px;
+      box-shadow: 10px 10px 10px #1b283898;
+       margin: 0 auto;
+      
+}
+
+div#certo{
+    margin:0 auto;
+   display: inline-flex;
+}
+h2#ad{
+    background-color:  #213A40;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width:100%;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 0px;
+    font-size: 20px;
+    border-radius: 0px;
+    box-shadow: none;
+   
+}
+
  a{
     color: white;
     text-decoration: none;
@@ -40,11 +101,25 @@ header{
     text-align: center;
     width:30%;
     height: 30px;
-    margin: 37px 460px 10px 460px;
+    margin: 0 auto;
+    margin-top: 30px;
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #1b283898;
 
+ }
+ h1{
+    background-color:  #213A40;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width:100%;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 0px;
+    font-size: 30px;
+    border-radius: 0px;
+    box-shadow: none;
  }
  .pseudo:hover{
     background-color: linear-gradient(to right,#b1befd,rgb(255, 196, 123));
@@ -81,6 +156,15 @@ button:hover{
     
     text-decoration: none;
    
+    background-color: #5e7279;
+}
+button.b1{
+    border: none;
+    border-radius: 1px;
+    background-color: #D9325E;
+    width: 94%;
+}
+button.b1:hover{
     background-color: #5e7279;
 }
 button.segundo{

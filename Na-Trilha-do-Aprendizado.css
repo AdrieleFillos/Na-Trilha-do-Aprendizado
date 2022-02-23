@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -34,9 +33,10 @@ header{
     font-weight: bold;
     color: white;
     text-align: center;
-    width:40%;
+    width: 35%;
     height: 40px;
-    margin: 20px 420px 10px 420px;
+    margin: 0 auto;
+    margin-top: 40px;
 
  }
  .pseudo:hover{
@@ -81,11 +81,5 @@ a.ex2:visited{
         padding: 0px;
     }
 }
-=======
 h2#RDE10 > span{
    display: none;
-}
-h2#RDE10:hover > span{
-    display: block;
-}
->>>>>>> main
